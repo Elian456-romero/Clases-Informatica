@@ -1,0 +1,32 @@
+#Comprobar Versión
+import sys
+print(sys.version)
+
+#Operaciones con 3 y 4
+a = 3
+b = 4
+print("Adición:", a + b)
+print("Sustracción:", a - b)
+print("Multiplicación:", a * b)
+print("Módulo:", a % b)
+print("División:", a / b)
+print("Exponente:", a ** b)
+print("División entera:", a // b)
+
+#Cadenas
+nombre = "Elian"
+apellido = "Romero"
+pais = "Ecuador"
+mensaje = "Estoy disfrutando de 30 días de Python"
+print(nombre)
+print(apellido)
+print(pais)
+print(mensaje)
+
+#Tipos de Datos
+print(type(10)) # int
+print(type(9.8)) # float
+print(type(3.14)) # float
+print(type(['Asabeneh', 'Python', 'Finland'])) # list
+print(type(apellido)) # str
+print(type(pais)) # str
