@@ -23,6 +23,8 @@ print(apellido)
 print(pais)
 print(mensaje)
 
+# %%
+
 #Tipos de Datos
 print(type(10)) # int
 print(type(9.8)) # float
@@ -30,3 +32,6 @@ print(type(3.14)) # float
 print(type(['Asabeneh', 'Python', 'Finland'])) # list
 print(type(apellido)) # str
 print(type(pais)) # str
+
+
+# %%
