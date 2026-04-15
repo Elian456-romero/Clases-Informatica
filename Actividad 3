@@ -1,0 +1,52 @@
+"""Elian Romero
+15/04/2026
+Actividad numero 1"""
+
+#%%
+
+#Texto (str)
+nombre: "Carlos"
+apellido: "Rodriguez"
+nombreCompleto: "Carlos Rodriguez"
+pais: "Ecuador"
+ciudad: "Quito"
+
+#%%
+
+#Numeros (int)
+edad: 17
+anio: 2026
+
+#%%
+
+#Booleano
+estaCasado= False
+esVerdadero= True
+luzEncendida= True
+
+#%%
+
+color, bebida, pelicula ="verde", "café", "terror"
+
+#%%
+
+print(type(nombre))
+print(type(apellido))
+print(type(nombreCompleto))
+print(type(pais))
+print(type(ciudad))
+print(type(edad))
+print(type(anio))
+print(type(estaCasado))
+print(type(esVerdadero))
+print(type(luzEncendida))
+
+#%%
+
+print(len(nombre))
+print(len(nombre)) < print(len(apellido))
+
+#%%
+
+numeroUno = 5
+numeroDos = 4
