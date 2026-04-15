@@ -5,30 +5,24 @@ Actividad numero 1"""
 #%%
 
 #Texto (str)
-nombre: "Carlos"
-apellido: "Rodriguez"
-nombreCompleto: "Carlos Rodriguez"
-pais: "Ecuador"
-ciudad: "Quito"
-
-#%%
+nombre= "Carlos"
+apellido= "Rodriguez"
+nombreCompleto= "Carlos Rodriguez"
+pais= "Ecuador"
+ciudad= "Quito"
 
 #Numeros (int)
-edad: 17
-anio: 2026
+edad= 17
+anio= 2026
 
-#%%
 
 #Booleano
 estaCasado= False
 esVerdadero= True
 luzEncendida= True
 
-#%%
-
 color, bebida, pelicula ="verde", "café", "terror"
 
-#%%
 
 print(type(nombre))
 print(type(apellido))
@@ -41,13 +35,53 @@ print(type(estaCasado))
 print(type(esVerdadero))
 print(type(luzEncendida))
 
-#%%
 
 print(len(nombre))
 print(len(nombre)) < print(len(apellido))
 
-#%%
-
 numeroUno = 5
 numeroDos = 4
 
+total = numeroUno + numeroDos
+print(total)
+
+diferencia = numeroUno - numeroDos
+print(diferencia)
+
+producto=numeroUno*numeroDos
+print(producto)
+
+division=numeroUno/numeroDos
+print(division)
+
+residuo= numeroDos%numeroUno
+print(residuo)
+
+potencia=numeroUno**numeroDos
+print(potencia)
+
+divisionEntera=numeroUno//numeroDos
+print(divisionEntera)
+
+radioo=30
+areaCirculo=3.14*30**2
+print(areaCirculo)
+
+circunferenciaCirculo=2*3.14*radioo
+print(circunferenciaCirculo)
+
+# input() pedir datos al usuario
+#float() convierte valor a número con decimales
+
+radio= float(input("ingrese el valor del radio: "))
+areaCirculo=3.14*radio**2
+print(areaCirculo)
+
+#int() sirve para convertir algo en número entero
+nombre=input("ingrese su nombre: ")
+apellido=input("inrgese su apellido: ")
+pais= input("ingrese pais de nacimiento: ")
+edad= int(input("ingrese su edad: "))
+
+#palabras reservadas
+help('keywords')
