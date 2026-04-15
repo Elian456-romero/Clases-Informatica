@@ -36,9 +36,10 @@ print(type(esVerdadero))
 print(type(luzEncendida))
 
 
-print(len(nombre))
-print(len(nombre)) < print(len(apellido))
-
+longitudNombre=(len(nombre))
+longitudApellido=(len(apellido))
+comparacion= longitudNombre < longitudApellido
+print(comparacion)
 numeroUno = 5
 numeroDos = 4
 
