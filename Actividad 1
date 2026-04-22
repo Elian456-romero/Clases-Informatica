@@ -10,3 +10,95 @@ print(type(120.00))
 
 print(10%3)
 print(14//2)
+
+Actividad 1
+# ===== PARTE A =====
+
+# Respuesta 1:
+# a) Tipos de datos:
+# nombre -> str
+# edad -> int
+# promedio -> float
+# cursos -> list
+
+# b) Salida en pantalla:
+# <class 'str'>
+# <class 'int'>
+# <class 'float'>
+# <class 'list'>
+# 5
+
+# c) len(nombre) devuelve la cantidad de caracteres que tiene la cadena "Lucía", incluyendo letras y símbolos.
+
+
+# Respuesta 2:
+# a) print() muestra información en pantalla, mientras que input() permite ingresar datos por teclado.
+# b) Porque input() siempre devuelve un texto (string), y si se usa en cálculos sin convertirlo puede causar error.
+# c) / es división normal, // es división entera (sin decimales), % devuelve el residuo.
+# d) import sys; print(sys.version)
+# e) import keyword; print(keyword.kwlist)
+
+
+# ===== PARTE B =====
+
+# Código corregido
+
+ancho = float(input("Ingrese el ancho del terreno: "))
+largo = float(input("Ingrese el largo del terreno: "))
+precio = float(input("Ingrese el precio por metro cuadrado: "))
+
+area = ancho * largo
+costo = area * precio
+
+print("Área total:", area)
+print("Costo estimado:", costo)
+
+# a) Errores principales:
+# - input() devuelve texto y no números
+# - No se podían multiplicar strings
+# - Se intentaba concatenar texto con números usando +
+
+# b) La corrección funciona porque:
+# - Se convierten los datos a float
+# - Se usan operaciones matemáticas válidas
+# - Se imprime correctamente sin concatenar tipos incompatibles
+
+
+# Construcción breve
+
+frase = "Tecnología para todos"
+
+print(frase.upper())
+print(len(frase))
+print("Python" in frase)
+print(frase.replace("Tecnología", "Programación"))
+print(frase.split())
+
+
+# ===== PARTE C =====
+
+# Programa integrador
+
+nombre = input("Ingrese su nombre: ")
+apellido = input("Ingrese su apellido: ")
+pais = input("Ingrese su país: ")
+ancho = float(input("Ingrese el ancho de la pared: "))
+alto = float(input("Ingrese el alto de la pared: "))
+precio = float(input("Ingrese el precio por metro cuadrado: "))
+
+area = ancho * alto
+costo_total = area * precio
+
+nombre_completo = nombre + " " + apellido
+
+print("\n--- REPORTE FINAL ---")
+print(f"Nombre completo: {nombre_completo}")
+print(f"País: {pais}")
+print(f"Área de la pared: {area} m²")
+print(f"Costo total estimado: ${costo_total}")
+
+print("\n--- INFORMACIÓN ADICIONAL ---")
+print(f"Nombre en mayúsculas: {nombre_completo.upper()}")
+print(f"Longitud del nombre completo: {len(nombre_completo)}")
+print(f"¿Contiene la letra 'a'?: {'a' in nombre_completo.lower()}")
+print(f"¿El costo total es mayor que 100?: {costo_total > 100}")
