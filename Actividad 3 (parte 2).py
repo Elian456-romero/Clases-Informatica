@@ -54,6 +54,7 @@ import math
 longitud = math.sqrt(2**2 + 3**2 + 6**2)
 print("Longitud:", longitud)
 
+
 # 13
 print("python" in "python y dragón")
 print("dragón" in "python y dragón")
@@ -82,3 +83,4 @@ print(type("10") == type(10))  # False
 print(int("9.8") == 10)  # Esto dará error
 # Corrección:
 print(int(float("9.8")) == 10)  # False
+# %%
