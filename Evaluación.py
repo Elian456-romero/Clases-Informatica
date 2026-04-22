@@ -24,7 +24,7 @@
 # b) Porque input() siempre devuelve un texto (string) y si se usa en cálculos sin convertirlo a int() o a float() puede causar error.
 # c) / es división normal mientras que // es división entera sin los decimales y % devuelve solo el residuo
 # d) print(sys.version)
-# e) help('keywords')
+# e) help("keywords")
 
 # ===== PARTE B =====
 
@@ -60,4 +60,32 @@ print(len(frase))
 print("Python" in frase)
 print(frase.replace("Tecnología", "Programación"))
 print(frase.split())
+
+# ===== PARTE C =====
+
+nombre = input("Ingrese su nombre: ")
+apellido = input("Ingrese su apellido: ")
+pais = input("Ingrese su país: ")
+ancho = float(input("Ingrese el ancho de la pared: "))
+alto = float(input("Ingrese el alto de la pared: "))
+precio = float(input("Ingrese el precio por metro cuadrado: "))
+
+area = ancho * alto
+costoTotal = area * precio
+espacio= " "
+
+nombreCompleto = nombre + espacio + apellido
+
+print("---REPORTE FINAL---")
+print(f"Nombre Completo: {nombreCompleto} ")
+print(f"País: {pais}")
+print(f"Area de la pared: {area} m2")
+print(f"Costo Total: ${costoTotal}")
+
+print("---INFORMACIÓN EXTRA---")
+print(f"Nombre en mayusculas: {nombreCompleto.upper()}")
+print(f"Longitud del nombre completo: {len(nombreCompleto)}")
+print(f"Contiene letra a: {"a" in nombreCompleto.lower()}")
+print(f"Costo total es mayor a 100: {costoTotal > 100}")
+
 
