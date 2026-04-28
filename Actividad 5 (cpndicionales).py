@@ -1,7 +1,3 @@
-b=3
-if b > 0:
-    print(f"{b} es un numero positivo")
-8
 nota= int(input("Ingresa tu nota: ")) 
 
 if nota > 90:
@@ -19,9 +15,8 @@ else:
                 if nota < 49:
                     print("Reprobado")
 
-#%%
 
-print("Ingrese un número")
+print("Ingrese un número: ")
 numero = int(input())
 
 if numero == 0:
@@ -52,3 +47,6 @@ elif b < 0 and b % 2 == 1:
     print("El número es negativo e impar")
 else:
     print("El numero es cero")
+
+numero= int(input("Ingrese un número: "))
+print("El numero es cero" if numero == 0 else print("El numero es par positivo" if numero > 0 and numero % 2 == 0 else print("El numero es impar positivo" if numero > 0 and numero % 2 == 1 else print("El numero es par negativo" if numero < 0 and numero % 2 == 0 else print("El numero es impar negativo")))))
