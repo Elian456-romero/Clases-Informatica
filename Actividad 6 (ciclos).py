@@ -1,5 +1,3 @@
-
-
 """opcion = ""
 while opcion != "c":
     print("Menú de opciones:")
@@ -40,7 +38,7 @@ print(f"El promedio es {promedio}")
 
 language= "P y t h o n"
 for letter in language:
-    print(letter)"""
+    print(letter)
 
 palabra = input ("Ingrese una palabra: ").lower()
 vocales = 0
@@ -51,3 +49,35 @@ for letra in palabra:
 print(f"La cantidad de vocales en la palabra es: {vocales}")
 print(f"La cantidad de consonantes en la palabra es: {len(palabra) - vocales}")
 print(f"El total de letras: {len(palabra)}")
+
+itCompanies = {"Facebook", "Google", "Apple", "Facebook"}
+for company in itCompanies:
+    print(company)
+
+numbers= ["1", "2", "4", "3" , "5"]
+for number in numbers:
+    print (number)
+    if number == "3":
+        print("Numero Encontrado")
+        break
+    else: 
+        print("Numero no existe")"""
+
+
+lista=[1,2,3,4,5,6,7]
+numbers=int(input("Ingrese un numero: "))
+for i in lista:
+    if i == numbers:
+        print("Numero Encontrado")
+        break
+else:        
+    print("Numero no existe")
+
+cedulaLimpia=""
+cedula= input("Ingrese su numero de cedula: ")
+for caracter in cedula:
+    if caracter == "-" or caracter == " ":
+        continue
+    cedulaLimpia= cedulaLimpia + caracter
+print(f"Su cedula sin espacios ni guiones es: {cedulaLimpia}")
+
