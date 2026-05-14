@@ -37,7 +37,6 @@ print("Reprobados:", reprobados)
 # ========================
 
 contrasena = "Python2026"
-
 letras = 0
 numeros = 0
 cantidad_o = 0
